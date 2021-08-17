@@ -12,6 +12,7 @@ DELETE http://localhost:8080/doctor/{id}  - Удалить врача с инд�
 
 пример Json-объекта
 {
+
         "firstName": "Semen",
         "lastName": "Bobrov",
         "middleName": "Ivanivich",
@@ -23,9 +24,13 @@ DELETE http://localhost:8080/doctor/{id}  - Удалить врача с инд�
 2. Запроси к таблице Patient
 
 GET http://localhost:8080/patient/patients  - Отображение списка пациентов
+
 GET http://localhost:8080/patient/{id}  - Показать пацыента с индексом id
+
 POST http://localhost:8080/patient/  - добавить пациента (в теле ответа Json-объект)
+
 PUT http://localhost:8080/patient/{id}  - Редактировать пациента с индексом id (в теле ответа Json-объект)
+
 DELETE http://localhost:8080/patient/{id}  - Удалить пациента с индексом id
 пример Json-объекта
 {
