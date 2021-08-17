@@ -1,10 +1,15 @@
 1. Запроси к таблице Doctor
 
 GET http://localhost:8080/doctor/doctors  - Отображение списка врачей
+
 GET http://localhost:8080/doctor/{id}  - Показать врача с индексом id
+
 POST http://localhost:8080/doctor/  - добавить врача (в теле ответа Json-объект)
+
 PUT http://localhost:8080/doctor/{id}  - редактировать врача с индексом id (в теле ответа Json-объект)
+
 DELETE http://localhost:8080/doctor/{id}  - Удалить врача с индексом id
+
 пример Json-объекта
 {
         "firstName": "Semen",
